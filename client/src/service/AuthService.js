@@ -3,8 +3,9 @@ import axios from 'axios';
 export default class AuthService {
   constructor() {
     this.service = axios.create({
-      baseURL: "http://localhost:5000/api", //CAMBIAR PARA DEPLOY
+      // baseURL: "http://localhost:5000/api", //CAMBIAR PARA DEPLOY
       // baseURL: process.env.REACT_APP_API_URL,
+      baseURL: 'https://lospoemasdelaabuela.herokuapp.com/api',
       withCredentials: true,
     });
   }

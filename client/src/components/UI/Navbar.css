@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #fff;
+    font-family: 'Montserrat';
+}
+
+.navbar .navbar-brand {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}

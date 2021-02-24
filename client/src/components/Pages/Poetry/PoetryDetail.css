@@ -1,0 +1,66 @@
+.detail-container {
+    padding-top: 5%;
+}
+
+.detail-container>h1 {
+    font-family: 'Montserrat';
+}
+
+.detail-container>h2 {
+    white-space: pre-line;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1em;
+    font-family: 'Montserrat';
+}
+
+.property {
+    padding-top: 2%;
+    padding-right: 20%;
+    text-align: rigth;
+    font-family: 'Homemade Apple',
+        cursive;
+    font-size: 1em;
+}
+
+.card-btn {
+    font-size: 0.75em;
+    background: transparent;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.btn-details {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.btn-primary:focus {
+    background-color: transparent !important;
+    border: 1px solid #000 !important;
+    outline: none !important;
+    box-shadow: none;
+    color: black
+}
+
+.admin-btn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%;
+    font-size: 0.75em;
+    background: #fff;
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}

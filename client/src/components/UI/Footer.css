@@ -1,0 +1,44 @@
+footer {
+    background-color: #000;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+footer>h1 {
+    color: #fff;
+    font-size: 1.2em;
+    padding-top: 3%;
+}
+
+
+img {
+    max-width: 30%;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+
+    .social-media {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .icon {
+        max-width: 40%;
+    }
+
+}

@@ -1,0 +1,97 @@
+body {
+    background-color: #f3f5f7;
+    color: #000;
+    /* overflow-x: hidden; */
+}
+
+.card-container {
+    border: 1px solid transparent;
+    width: max-content;
+    height: max-content;
+    margin: 2%;
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Montserrat'
+    
+}
+
+.card-container>h1 {
+    font-size: 1em;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+}
+
+.card-container>aside {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 0.85em;
+    font-family: 'Montserrat',
+    serif;
+}
+
+.property {
+    text-align: right;
+    font-family: 'Homemade Apple',
+    cursive;
+    font-size: 0.5em;
+}
+
+.card-btn {
+    font-size: 0.75em;
+    background: transparent;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.btn-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary:focus {
+    background-color: transparent !important;
+    border: 1px solid #000 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* MODIFICACION PARA MOVIL */
+    .card-container {
+        width: 95vw;
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .card-container>aside {
+        white-space: pre-line;
+    }
+
+    .btn-detail>.card-btn {
+        display: none;
+    }
+
+    .card-container>h1 {
+        padding-top: 4%;
+    }
+
+}
+

@@ -1,0 +1,40 @@
+.poet-container>h2 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-top: 6%;
+}
+
+.filter {
+    width: 50%;
+    padding-top: 3%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.filter-title {
+    margin: 0 auto;
+    padding-bottom: 2%;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+.spinner-container {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .filter-title {
+        text-align: center;
+    }
+
+}
+
+
+

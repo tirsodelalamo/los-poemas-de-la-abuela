@@ -1,0 +1,7 @@
+.register-container {
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}

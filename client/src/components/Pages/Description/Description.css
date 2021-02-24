@@ -1,0 +1,54 @@
+.description-container>h2 {
+    text-align: center;
+    padding-top: 6%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.avatar {
+    max-width:100%;
+    padding: 5px;
+    /* width: 20rem; */
+    border-radius: 3%;
+}
+
+.avatar:hover {
+    cursor: default;
+    transform: scale(1.0)
+}
+
+.text-description {
+    font-family: 'Montserrat',
+    serif; 
+    font-size: 1.1em;
+    padding-bottom: 3%;
+}
+
+
+.section {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.second {
+    padding-bottom: 3%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avatar {
+        padding-bottom: 3%;
+    }
+}

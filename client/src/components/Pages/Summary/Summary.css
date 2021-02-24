@@ -1,0 +1,36 @@
+.summary-general {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-container>h2 {
+    text-align: center;
+    padding-top: 6%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.summary-section {
+    margin: 2%;
+}
+
+.summary-section>h3 {
+    padding-bottom: 2%;
+}
+
+.index-section {
+    list-style: none;
+}
+
+.index-section>p {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+
+    .index-section>p {
+        width: 90vw;
+        text-align: center;
+    }
+
+}

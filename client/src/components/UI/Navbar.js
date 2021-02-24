@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import AuthService from '../../service/AuthService'
 
 import Logo from '../../public/logo512.png'
@@ -47,8 +47,8 @@ const Navigation = (props) => {
              </Nav>
            ) : (
              <Nav>
-               <Nav.Link className='links' href="/iniciar-sesion">Iniciar sesión</Nav.Link>
-               <Nav.Link className='links' href="/registro">Registro</Nav.Link>
+               {/* <Nav.Link className='links' href="/iniciar-sesion">Iniciar sesión</Nav.Link>
+               <Nav.Link className='links' href="/registro">Registro</Nav.Link> */}
              </Nav>
            )}
         </Navbar.Collapse>

@@ -12,8 +12,7 @@ import Summary from './components/Pages/Summary/Summary'
 import PoetryDetail from './components/Pages/Poetry/PoetryDetail'
 import Description from './components/Pages/Description/Description'
 import Login from './components/Auth/Login/Login'
-// import Edit from './components/Pages/Edit/Edit'
-import Register from './components/Pages/Register/Register'
+// import Register from './components/Pages/Register/Register'
 
 
 function App(props) {
@@ -62,13 +61,13 @@ function App(props) {
         />
         <Route
           path="/poema/:id"
-          render={(props) => <Profile {...props} />} //EDIT EN PROCESO
+          render={(props) => <Profile {...props} />} 
         />
         <Route
           path="/iniciar-sesion"
           render={(props) => <Login {...props} />}
         />
-        <Route path="/registro" render={(props) => <Register {...props} />} />
+        {/* <Route path="/registro" render={(props) => <Register {...props} />} /> */}
       </Switch>
       <Footer />
     </Fragment>

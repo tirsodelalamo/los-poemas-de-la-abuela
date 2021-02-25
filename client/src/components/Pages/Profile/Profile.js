@@ -37,17 +37,9 @@ const Profile = (props) => {
         tags: tagstomodify,
       });
     }
-  }, [props.history.location.state]);
-    
-    
+  }, [props.history.location.state]); 
 
   const { title, body, tags } = poetry;
-
-  // const [error, updateError] = useState({
-  //   errorMessage: "",
-  // });
-
-  // const { errorMessage } = error;
 
   const handleInputChange = (e) => {
     updatePoetry({
@@ -66,7 +58,6 @@ const Profile = (props) => {
       .catch((err) => console.log(err));
   };
 
-  //VER ESTO BIEN
 
   const editPoetry = (e) => {
 

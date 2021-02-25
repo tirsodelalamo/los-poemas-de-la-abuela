@@ -1,12 +1,12 @@
 .first-section-container {
-    background-color: rgb(241, 222, 180); /* Mirar márgenes */
-    height: 90vh;
-    display:flex;
+    background-color: rgb(241, 222, 180);
+    height: 93vh;
+    display: flex;
     align-items: center;
 }
 
-.first-section {  
-    align-items:center;
+.first-section {
+    align-items: center;
     margin: 0;
     padding: 5% 3%;
 }
@@ -18,20 +18,24 @@
 .first-col>h1 {
     padding-top: 0%;
     font-family: 'Kaushan Script',
-    cursive;
+        cursive;
     font-size: 4.5em;
 }
 
 .first-col>h2 {
     font-family: 'Kaushan Script',
-    cursive;
+        cursive;
+}
+
+.second-col {
+    height: auto;
 }
 
 .second-col>img {
-    min-width: 90%;
-    max-width: 90%;
-    min-height: 90%;
-    max-height: 90%;
+
+    max-width: 80%;
+
+    max-height: 80%;
     padding-top: 5%;
 }
 
@@ -89,28 +93,36 @@
 
 @media screen and (max-width: 768px) {
 
-    .first-section-container {
-        height: 95vh;
-    }
 
     .first-section {
         display: flex;
         flex-direction: column-reverse;
-        height: 90vh;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+
+    .first-col {
+        padding-bottom: 3%;
     }
 
     .second-col {
-        text-align: center;
-        padding-top: 3%;
+
+        padding-bottom: 3%;
     }
 
-    .second-section-container {
+    .first-col>h1 {
+        font-size: 2em;
+    }
+
+    .first-col>h2 {
+        font-size: 1.5em;
+    }
+
+    .themes {
         padding-top: 3%;
     }
 
     .single-theme {
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
+        padding-bottom: 6%;
     }
 }
-

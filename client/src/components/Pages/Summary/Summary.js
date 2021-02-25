@@ -6,8 +6,8 @@ import './Summary.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from "react-bootstrap/Col";
-import Modal from 'react-bootstrap/Modal' //Para modal
-import PoetryDetail from '../Poetry/PoetryDetail' //Para modal
+import Modal from 'react-bootstrap/Modal' 
+import PoetryDetail from '../Poetry/PoetryDetail' 
 
 const Summary = (props) => {
 
@@ -21,7 +21,6 @@ const Summary = (props) => {
 
     const [allPoetry, updateAllPoetry] = useState([]);
     
-    //PARA PASAR PROPS DE LA POESIA
     const [selectedPoetry, updateSelectedPoetry] = useState([])
     
     const updatePoetry = (e) => {

@@ -6,7 +6,7 @@ import Familia from "../../../public/tematicas/familia.png";
 import Naturaleza from "../../../public/tematicas/naturaleza.png";
 import Religion from "../../../public/tematicas/religion.png";
 import Otros from "../../../public/tematicas/otros.png";
-import Libro from "../../../public/home/book.jpg";
+import Portada from "../../../public/home/portada.png";
 
 import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row";
@@ -26,7 +26,7 @@ const Home = () => {
             </Button>
           </Col>
           <Col className="second-col">
-            <img src={Libro} alt="Libro de poesía" />
+            <img src={Portada} alt="Foto Portada" />
           </Col>
         </Row>
       </div>

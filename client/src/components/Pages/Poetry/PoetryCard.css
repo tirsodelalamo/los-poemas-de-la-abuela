@@ -1,7 +1,6 @@
 body {
     background-color: #f3f5f7;
     color: #000;
-    /* overflow-x: hidden; */
 }
 
 .card-container {
@@ -72,7 +71,6 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    /* MODIFICACION PARA MOVIL */
     .card-container {
         width: 95vw;
         font-size: 5vw;

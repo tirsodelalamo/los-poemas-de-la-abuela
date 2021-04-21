@@ -24,4 +24,4 @@ This webapp has different sections, including an index to find the poem you want
 - Mongoose
 
 
-### Made with :heart: by [Tirso del Álamo](https://www.linkedin.com/in/tirsodelalamomartin/) 
+

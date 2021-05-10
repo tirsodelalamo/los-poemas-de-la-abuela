@@ -23,5 +23,6 @@ This webapp has different sections, including an index to find the poem you want
 - NodeJS
 - Mongoose
 
+![LPDLA-Diagram](https://user-images.githubusercontent.com/61800410/117643425-a9f4e680-b188-11eb-9ffe-b0b723307874.png)
 
 
